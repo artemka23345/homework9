@@ -3,7 +3,7 @@ public class Main {
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
-        String fullName = firstName + " " + middleName + " " + lastName;
+        String fullName = firstName.concat(" ") + middleName.concat(" ") + lastName.concat(" ");
         System.out.println("Ф. И. О. сотрудника — " + fullName);
         task2(fullName);
         task3(fullName);
